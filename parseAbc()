@@ -1,0 +1,46 @@
+
+
+public class parseABC {
+public static void main(String[] args) {
+//	Integer v1= Integer.valueOf("123");
+//	//System.out.println(v1);
+//	int value=v1.intValue();
+//	//System.out.println(value);
+//	int v2=v1;
+	String value="123A";
+	//byte
+//	byte a=Byte.parseByte(value);//string
+//	System.out.println(a);
+	
+//	short s=Short.parseShort(value);
+//	System.out.println(s);
+	try {
+	int i= Integer.parseInt(value);
+	//it gives  exception(NumberFormatException if the given string contains any other value except number )
+	System.out.println(i);
+	}
+	catch(NumberFormatException e)
+	{
+		System.out.println(e.getMessage());
+	}
+//	long l= Long.parseLong(value);
+//	System.out.println(l);
+	
+//	float f= Float.parseFloat(value);
+//	System.out.println(f);
+	
+//	double  d= Double.parseDouble(value);
+//	System.err.println(d);
+	
+	//parsAbc() is NOT APPLICABLE FOR CHARACTER CLASS
+//	boolean b1=Boolean.parseBoolean(value);
+//	System.out.println(b1);//false 
+//	boolean b2=Boolean.parseBoolean("TRue");
+//	boolean b3=Boolean.parseBoolean("WonderWoman");
+//	boolean b4=Boolean.parseBoolean("false");
+//	System.out.println(b2);
+//	System.out.println(b3);
+//	System.out.println(b4);
+	
+}
+}
