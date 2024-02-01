@@ -1,0 +1,23 @@
+
+
+public class ToString {
+
+	
+	
+	
+	public String toString(int a)
+	{
+		return a+"";
+	}
+	public static void main(String[] args) {
+		
+		int a= 178;
+		//Integer v=Integer.valueOf(a);
+		Integer v=new Integer(a);
+		System.out.println(v);
+		ToString ref=new ToString();
+		System.out.println(ref.toString(a));
+		String s1=a+"";
+		String s=Integer.toString(a);
+	}
+}
