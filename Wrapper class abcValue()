@@ -1,0 +1,78 @@
+
+
+public class ABCvalue {
+public static void main(String[] args) {
+	
+//	int a=45;
+//	Integer v1=Integer.valueOf(a);
+//	int b= v1.intValue();
+//	byte b1=v1.byteValue();
+//	System.out.println(b1);
+//float c1=	v1.floatValue();
+//System.out.println(c1);
+//short e=v1.shortValue();
+//double g= v1.doubleValue();
+//long l1=v1.longValue();
+//	System.out.println(e+","+g+","+l1);
+	//
+//float f=132.3698f;
+//Float value12=Float.valueOf(f);
+//	System.out.println(value12);
+//	byte b1=value12.byteValue();
+//	System.out.println(b1);
+//	short s1=value12.shortValue();
+//	System.out.println(s1);
+//	
+//	int i1=value12.intValue();
+//	System.out.println(i1);
+//long l1=value12.longValue();
+//	System.out.println(l1+"long value");
+//	float f1=value12.floatValue();
+//	System.out.println(f1);	
+//	double d1=value12.doubleValue();
+//	System.out.println(d1);
+//	
+//	
+//	char c='A';
+//	Character c1=Character.valueOf(c);
+//	  char c2=c1.charValue();
+//	  System.out.println(c2);
+	
+	  boolean b=true;
+	  String s="hii";
+	  String s1="true";
+	  String s2="false";
+Boolean s4= Boolean.valueOf(s);//
+Boolean s5= Boolean.valueOf(s1);
+Boolean s6=	Boolean.valueOf(s2);
+
+boolean b7=s4.booleanValue();
+boolean b8=s5.booleanValue();
+boolean b9=s6.booleanValue();
+
+System.out.println(b7);
+System.out.println(b8);
+System.out.println(b9);
+
+	 // Boolean b1=Boolean.valueOf(b);
+	  //System.out.println(b1);
+	 // boolean b2=b1.booleanValue();
+	//System.out.println(b2);
+	
+//	Byte ref= Byte.valueOf("45");
+//	//abc value
+//	
+//	
+//	Integer ref4= 128;
+//	Integer ref5= 128;
+//	System.out.println(ref4==ref5);
+//	
+//	
+//	byte v=ref.byteValue();
+//	System.out.println(v);
+//
+//	Short  REF2= new Short("74");
+//	short v1= REF2.shortValue();
+//	System.out.println(v1);
+}
+}
