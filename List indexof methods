@@ -1,0 +1,23 @@
+package Recursion12;
+import java.util.*;
+public class Indexof {
+	public static void main(String[] args) {
+		
+		List ref= new ArrayList();
+		ref.add(4);
+		ref.add(5);
+		ref.add(6);
+		List ref1= new ArrayList();
+		ref1.addAll(ref);
+		ref1.add("atul");
+		ref1.add(6);
+		ref1.add(6);
+		//System.out.println(ref);
+		System.out.println(ref1);
+		System.out.println(ref1.indexOf(6));
+		System.out.println(ref1.lastIndexOf(6));
+		
+	}
+
+	
+}
