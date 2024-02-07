@@ -1,0 +1,28 @@
+package Recursion12;
+import  java.util.*;
+public class LinkedList12 {
+
+	public static void main(String[] args) {
+		
+		LinkedList  ref= new LinkedList();
+		ref.offerLast(14);
+		ref.add(10);
+		ref.add(14);
+		ref.offerLast(25);
+		ref.offerFirst(2);
+		ref.offerLast(26);
+		ref.offer(70);
+		ref.offer(80);
+		ref.offerLast(10);
+		ref.add(14);
+		ref.offerLast(150);
+		ref.offerFirst(3);
+		System.out.println(ref);
+		//System.out.println(ref.peek());
+		System.out.println(ref.peekFirst());
+		System.out.println(ref.peekLast());
+		System.out.println(ref.poll());
+	
+		System.out.println(ref);
+	}
+}
