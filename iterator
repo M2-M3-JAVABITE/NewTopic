@@ -1,0 +1,51 @@
+package Recursion12;
+import java.util.*;
+public class ABCvalue {
+public static void main(String[] args) {
+ArrayList<Integer> ref= new ArrayList();
+
+for (int i=0;i<42;i++)
+{
+	ref.add(i);
+	
+}
+	
+//System.out.println(ref);
+
+
+//for (int i=0;i<ref.size();i++)
+//{
+//	System.out.println(ref.get(i));
+//}
+	
+
+//for (int a:ref)
+//{
+//	
+//	System.out.println(a);
+//}
+
+          Iterator ref2= ref.iterator();
+          
+         while( ref2.hasNext())
+         {
+        	 int a=(Integer)ref2.next();
+        	 
+        	 if (a%2==0)
+       	 {
+       
+        		 System.out.println();
+        		 
+        	 }
+        	 else
+       	 {
+        		 ref2.remove(); 
+        	 }
+        	 
+        	
+         }
+          
+ //System.out.println(ref);
+
+}
+}
