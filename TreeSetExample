@@ -1,0 +1,66 @@
+package setInterface;
+import java.util.*;
+public class TreeSetExample {
+
+	public static void main(String[] args) {	
+	Set ref= new TreeSet(new TreeSetImplImentation());	
+	ref.add(10);
+	ref.add(11);
+	ref.add(1);
+	ref.add(14);
+	ref.add(6);
+	ref.add(8);
+	ref.add(9);
+	ref.add(10);
+	ref.add(10);
+	System.out.println(ref);
+	// output :[1, 6, 8, 9, 10, 11, 14] remove duplicate element & ascending order
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+package setInterface;
+
+import java.util.*;
+
+public class TreeSetImplImentation extends Object implements Comparator {
+	
+	
+	public  int compare(Object a1,Object a2){
+		
+		Integer b1=(Integer)a1;
+		Integer b2=(Integer)a2;
+		
+		if (b2<b1)
+		{
+			
+			return -1;
+		}
+		
+		else if(b2>b1) {
+			
+			return 1;
+		}
+		
+		else {
+		
+			return  0;
+			
+		}
+		
+	
+	}	
+}
+
